@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#sayfa {
+    width:900px;
+    min-height:600px;
+    background-color: #186F65;
+    margin: auto;
+}
+h1{
+    color:#FCE09B;
+    font-family:'Playpen Sans', cursive;
+    text-align: center;
+}
+
+main {
+    min-height:650px;
+}
+/*ana menu nav kısmı*/
+#anamenu {   
+    width: 900px;
+    text-align: center;
+    background-color: #B5CB99;
+    color: #186F65;
+    height:50px;
+    margin: auto;
+}
+#anamenu ul {
+    list-style-type:none;
+     
+}
+#anamenu ul li {
+    background-color:#B2533E;
+    border-color: #186F65;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:10px;
+    text-align: center; 
+    padding: 5px;
+    margin-left:20px; 
+    top: 8px;
+    width: 200px;
+    float: left;
+    position: relative;
+}
+
+#anamenu ul a{
+    color:#FCE09B;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:'Playpen Sans', cursive;
+    text-align:center;
+}
+
+h2{
+    color:#FCE09B;
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+    padding-top: 5px;
+}
+/*içerik*/
+article{
+    padding-top: 5px;
+    color:#B5CB99;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+/*footer bölümü*/
+#altmenu {
+   width:900px;
+   min-height:50px;
+   border-style:solid;
+   border-width: 1px;
+   background-color:#B5CB99;
+   float:left;
+   text-align: center;
+   padding-top:10px;
+}
+#altmenu a {
+   font-family: 'Playpen Sans', cursive;
+   font-size: 15px;
+   text-decoration: none;
+   color:#186F65;
+}
+img {
+    float: left;
+    border-radius: 50px;
+    margin:5px;
+    height: 200px;
+}
+figure {
+    min-height: 400px;
+}
+.resimduzen {
+    margin:75px;
+    padding:5px;
+    border:2px #FCE09B  solid;
+    width: 300px;   
+}
+/*form kutusunun özellikleri*/
+#formkutusu {
+    border:#FCE09B solid 2px;
+    border-radius:2px;
+    background-color:#186F65;
+    padding: 20px;
+}
+input {
+    border:#B2533E solid 2px;
+    color:#B2533E;
+    padding: 5px;
+    margin: 3px;
+    background-color: black;
+}
